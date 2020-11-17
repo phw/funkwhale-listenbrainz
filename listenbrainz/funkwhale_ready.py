@@ -25,7 +25,7 @@ from .client import ListenBrainzClient, Track
 
 @plugins.register_hook(plugins.LISTENING_CREATED, PLUGIN)
 def submit_listen(listening, conf, **kwargs):
-    user_token = conf['listenbrainz_token']
+    user_token = conf['user_token']
     if not user_token:
         return
 
