@@ -3,6 +3,8 @@
 Submit your listens to [ListenBrainz](https://listenbrainz.org) when listening
 to music on a [Funkwhale](https://funkwhale.audio/) pod.
 
+**Note: This plugin is now available as a core plugin in Funkwhale!**
+
 
 ## Installation
 
